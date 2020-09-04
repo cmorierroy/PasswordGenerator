@@ -118,6 +118,7 @@ public class PasswordGenerator implements ActionListener
 		//create frame
 		frame = new JFrame();
 		frame.setSize(width, height);
+		
 		//add everything to frame
 		frame.add(panel, BorderLayout.CENTER);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -239,10 +240,6 @@ public class PasswordGenerator implements ActionListener
 		for(int i = 0; i < length; i++)
 		{
 			char temp = (char)(Math.random() * (upperBound + 1 - lowerBound) + lowerBound);
-			if(length == 1)
-			{
-				System.out.println(temp);
-			}
 			result += temp;
 		}
 		
