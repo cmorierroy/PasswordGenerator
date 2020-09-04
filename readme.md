@@ -8,5 +8,5 @@ This is a simple random password generator I've created to get familiar with Jav
  </ul>
 
 # How to run the jar file
-From Terminal, enter: <br>
+From Terminal, in the directory where PwGen.jar is stored, enter: <br>
 `java -jar PwGen.jar`
